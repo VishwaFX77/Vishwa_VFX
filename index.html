@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional VFX Artist specializing in character design, environment VFX, and simulation effects. Portfolio showcasing digital art, 3D modeling, and visual effects work.">
+    <meta name="keywords" content="VFX artist, 3D modeling, character design, environment VFX, simulation effects, digital art, visual effects, Maya, ZBrush, Houdini">
+    <meta name="author" content="Vishwa FX Artist">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vishwa FX Artist Portfolio">
+    <meta property="og:description" content="Professional portfolio showcasing VFX and digital art work">
+    <meta property="og:image" content="https://vishwafx.github.io/assets/images/og-image.jpg">
+    <meta property="og:url" content="https://vishwafx.github.io">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vishwa FX Artist Portfolio">
+    <meta name="twitter:description" content="Professional portfolio showcasing VFX and digital art work">
+    <meta name="twitter:image" content="https://vishwafx.github.io/assets/images/og-image.jpg">
+
+    <title>Vishwa FX Artist - Professional VFX Portfolio</title>
+    <link rel="canonical" href="https://vishwafx.github.io">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png">
+    
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Vishwa FX Artist",
+        "url": "https://vishwafx.github.io",
+        "sameAs": [
+            "https://www.linkedin.com/in/vishwa-p-64b85a1bb",
+            "https://vimeo.com/vishwafx",
+            "https://www.artstation.com/vishwa_art"
+        ],
+        "jobTitle": "VFX Artist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Vishwa FX Artist"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "34/2 Kavirayar Street",
+            "addressLocality": "Paravai",
+            "addressRegion": "Madurai",
+            "postalCode": "625 402",
+            "addressCountry": "India"
+        },
+        "email": "vishwaparameswaran7@gmail.com",
+        "telephone": "+91 63847 48014"
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Vishwa FX</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#showreel">Showreel</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="video-background">
+                <video autoplay muted loop playsinline poster="./assets/images/video-poster.jpg">
+                    <source src="./assets/videos/hero-video.mp4" type="video/mp4">
+                    <source src="./assets/videos/hero-video.webm" type="video/webm">
+                    <img src="./assets/images/video-poster.jpg" alt="Hero Background">
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1>Vishwa FX Artist</h1>
+                <p>Creating stunning visual effects and digital art</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="cta-button primary">View Projects</a>
+                    <a href="#contact" class="cta-button secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="showreel" class="showreel-section">
+            <h2>Latest Showreel</h2>
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <video controls poster="./assets/images/showreel-poster.jpg">
+                        <source src="./assets/videos/showreel.mp4" type="video/mp4">
+                        <source src="./assets/videos/showreel.webm" type="video/webm">
+                        <p>Your browser doesn't support HTML5 video. Here is a <a href="./assets/videos/showreel.mp4">link to the video</a> instead.</p>
+                    </video>
+                    <div class="video-thumbnail-overlay">
+                        <p>Click to play</p>
+                    </div>
+                    <div class="video-loading">
+                        <div class="loading-spinner"></div>
+                        <p>Loading video...</p>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3>2025 Showreel</h3>
+                    <p>Featured works in Simulation FX</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="./assets/images/projects/simulation-vfx.jpg" 
+                             alt="Simulation VFX Project" 
+                             class="project-image"
+                             onerror="this.src='./assets/images/placeholder.jpg'">
+                        <div class="image-loading">
+                            <div class="loading-spinner"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="./assets/images/projects/fluid-simulation.jpg" 
+                             alt="Fluid Simulation Project" 
+                             class="project-image"
+                             onerror="this.src='./assets/images/placeholder.jpg'">
+                        <div class="image-loading">
+                            <div class="loading-spinner"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="./assets/images/projects/particle-effects.jpg" 
+                             alt="Particle Effects Project" 
+                             class="project-image"
+                             onerror="this.src='./assets/images/placeholder.jpg'">
+                        <div class="image-loading">
+                            <div class="loading-spinner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="technologies" class="technologies-section">
+            <div class="section-header">
+                <h2>Technologies</h2>
+                <p class="section-subtitle">Tools & Software Expertise</p>
+            </div>
+            <div class="technologies-grid">
+                <div class="technology-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div class="tech-info">
+                        <span class="tech-name">Houdini</span>
+                        <span class="tech-level">Expert</span>
+                    </div>
+                </div>
+
+                <div class="technology-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <div class="tech-info">
+                        <span class="tech-name">Maya</span>
+                        <span class="tech-level">Expert</span>
+                    </div>
+                </div>
+
+                <div class="technology-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <div class="tech-info">
+                        <span class="tech-name">Nuke</span>
+                        <span class="tech-level">Expert</span>
+                    </div>
+                </div>
+
+                <div class="technology-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="tech-info">
+                        <span class="tech-name">Photoshop</span>
+                        <span class="tech-level">Expert</span>
+                    </div>
+                </div>
+
+                <div class="technology-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div class="tech-info">
+                        <span class="tech-name">After Effects</span>
+                        <span class="tech-level">Expert</span>
+                    </div>
+                </div>
+
+                <div class="technology-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="tech-info">
+                        <span class="tech-name">Premiere Pro</span>
+                        <span class="tech-level">Expert</span>
+                    </div>
+                </div>
+
+                <div class="technology-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="tech-info">
+                        <span class="tech-name">VEX</span>
+                        <span class="tech-level">Expert</span>
+                    </div>
+                </div>
+
+                <div class="technology-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="tech-info">
+                        <span class="tech-name">Substance Painter</span>
+                        <span class="tech-level">Expert</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p><strong>Experienced FX artist</strong> specializing in <strong>Dynamic and Realistic effects</strong>, 
+                <strong>Destruction</strong>, <strong>Explosion</strong>, <strong>Fluid</strong>, <strong>Particle simulation</strong>, and <strong>Magical effects</strong>.
+                Proficient problem-solving skills have enabled successful execution across diverse projects
+                such as <strong>"Kadaisi Ulaga Por, Arabian Kadhali"</strong> demonstrating
+                versatility and expertise in the field. Dedicated to pushing creative boundaries and delivering visually stunning experiences.</p>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <h2>Experience</h2>
+            <div class="experience-content">
+                <div class="experience-item">
+                    <h3>FX Artist</h3>
+                    <p class="company">85FX</p>
+                    <p class="duration">2024 - Present</p>
+                    <ul class="experience-details">
+                        <li>Created dynamic and realistic effects for various projects</li>
+                        <li>Specialized in destruction, explosion, and fluid simulations</li>
+                        <li>Worked on "Kadaisi Ulaga Por, Arabian Kadhali"</li>
+                        <li>Developed particle systems and magical effects</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>FX Artist</h3>
+                    <p class="company">Adinn Advertising Services</p>
+                    <p class="duration">2022 - 2023</p>
+                    <ul class="experience-details">
+                        <li>Created visual effects and simulations for advertising campaigns</li>
+                        <li>Developed 3D models and textures for various assets</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>FX Artist</h3>
+                    <p class="company">Xentrix</p>
+                    <p class="duration">2022 - 2022</p>
+                    <ul class="experience-details">
+                        <li>Completed three-month intensive internship in FX work</li>
+                        <li>Learned and implemented industry-standard FX techniques</li>
+                        <li>Gained practical experience in visual effects production</li>
+                        <li>Developed foundational skills in FX creation and implementation</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>Graphic Designer & Video Editor</h3>
+                    <p class="company">Aham</p>
+                    <p class="duration">2021 - 2022</p>
+                    <ul class="experience-details">
+                        <li>Designed advertisements and promotional materials</li>
+                        <li>Created movie posters and promotional artwork</li>
+                        <li>Edited and produced video content for various platforms</li>
+                        <li>Worked on visual content for marketing campaigns</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <h3>Contact Information</h3>
+                        <div class="contact-methods">
+                            <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:vishwaparameswaran7@gmail.com">vishwaparameswaran7@gmail.com</a></p>
+                            <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +91 63847 48014</p>
+                        </div>
+                        <div class="social-links">
+                            <h3>Follow Me</h3>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/vishwa-p-64b85a1bb" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://vimeo.com/vishwafx" aria-label="Vimeo"><i class="fab fa-vimeo"></i></a>
+                                <a href="https://www.artstation.com/vishwa_art" aria-label="ArtStation"><i class="fab fa-artstation"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vishwa FX Artist. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
